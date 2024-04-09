@@ -1,0 +1,43 @@
+= RaceCar Controller Description =
+
+**Purpose:**
+
+This code controls a race car using a remote control with two channels.  The channels control forward/backward movement (CH2) and turning left/right (CH4).
+
+**Components:**
+
+* '''Remote.h''': This header file likely contains functions for interfacing with the remote control receiver.
+* '''RaceCar.h''': This header file likely contains functions for controlling the race car's motors.
+* '''setup()''': This function runs once at startup and initializes the communication with the serial monitor, configures the motor control pins as outputs, and starts the remote control interface.
+* '''loop()''': This function runs repeatedly. It reads the values from two channels (CH2 and CH4) of the remote control, determines the desired movement based on the readings, and calls the corresponding movement function (straight, backward, left, right, or halt).
+* '''getChannel(int channel):''': This function reads the pulse width of a specified channel on the remote control receiver.
+* '''startRemote()''': This function sets the remote control receiver channels (CH2 and CH4) as input pins.
+* '''Movement Functions (right, left, backward, straight, halt):''': These functions control the race car's movement by setting the speed and direction of the left and right motors using `analogWrite` and `digitalWrite` functions.
+
+**Code Flow:**
+
+1. **Setup:**
+   - Initialize serial communication for debugging output. 
+   - Configure motor control pins for left and right motors (PWM, direction A, direction B).
+   - Start the remote control interface.
+2. **Loop:**
+   - Read the pulse width values from channels CH2 and CH4 of the remote control.
+   - Based on the readings:
+      - If CH2 is near the center value (between 1490 and 1515), move straight.
+      - If CH2 is below the threshold (less than 1490), move backward.
+      - If CH2 is above the threshold (more than 1515), move forward.
+      - If CH4 is below the threshold (less than 1490), turn left.
+      - If CH4 is above the threshold (more than 1515), turn right.
+      - Otherwise, stop the car (halt).
+
+**Key Variables:**
+
+* `CH2`, `CH4`: Define the channels on the remote control used for movement control.
+* `c2Val`, `c4Val`: Store the pulse width values read from channels CH2 and CH4, respectively.
+* `LSPEED`, `RSPEED`: Define the base speed values for the left and right motors.
+
+**Additional Notes:**
+
+* The code uses pulse width modulation (PWM) to control the speed of the motors.
+* The code includes comments for some sections but could benefit from additional comments to improve readability.
+* Specific details about `Remote.h` and `RaceCar.h` are missing as they are not provided.
