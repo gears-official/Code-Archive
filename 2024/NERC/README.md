@@ -2,16 +2,16 @@
 
 ## Teams
 
-| Team Name            | Category   | Team Members                                                                                         |
-| -------------------- | ---------- | ---------------------------------------------------------------------------------------------------- |
-| AceCream             | Indigenous | Muhammad Zafeer, Zaheer Ud Deen Akram, Armughan Ul Haq Bazigh, Karimullah, Muqaddas Amjad, Amna Asad |
-| Noobry               | Indigenous | Touseef, Sufyan Ahmad, Suhaib Ahmad, Afaq Ahmad                                                      |
-| Gears Waly           | Indigenous | Ahmad Ali, Abdul Waqas, Ahmad Samdhani, Faraz                                                        |
-| 5v DC                | Indigenous | Haziq Sumaid, Mohsin Raouf, Usama Toqeer                                                             |
-| BadoBadi             | RTR        | Zaheer Ud Deen Akram, Hafiz Muneeb, Aysha Riffat, Alishba Zulafqar                                   |
-| Runtime Error        | RTR        | Asad Manzoor, Ehtisham Ahmad, Saad Ali, Rana Muhammad Raees Abbas, Marium Ijaz                       |
-| Andy Wala            | RTR        | Tayyab Ali, Asfandyar, Abdullah Khan                                                                 |
-| Janooni Garrisonians | RTR        | Muhammad Haseeb, Zaeem, Areel Ashfaq, Karimullah                                                     |
+| Team Name                                                                                                             | Category   | Team Members                                                                                         |
+| --------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------------------------------------------------------------------------------- |
+| [AceCream](https://github.com/gears-official/Code-Archive/tree/main/2024/NERC/Indigineous/AceCream)                   | Indigenous | Muhammad Zafeer, Zaheer Ud Deen Akram, Armughan Ul Haq Bazigh, Karimullah, Muqaddas Amjad, Amna Asad |
+| [Noobry](https://github.com/gears-official/Code-Archive/tree/main/2024/NERC/Indigineous/Noobry)                       | Indigenous | Touseef, Sufyan Ahmad, Suhaib Ahmad, Afaq Ahmad                                                      |
+| [Gears Waly](https://github.com/gears-official/Code-Archive/tree/main/2024/NERC/Indigineous/Gears%20Waly)             | Indigenous | Ahmad Ali, Abdul Waqas, Ahmad Samdhani, Faraz                                                        |
+| [5v DC](https://github.com/gears-official/Code-Archive/tree/main/2024/NERC/Indigineous/5v%20DC)                       | Indigenous | Haziq Sumaid, Mohsin Raouf, Usama Toqeer                                                             |
+| [BadoBadi](https://github.com/gears-official/Code-Archive/tree/main/2024/NERC/RTR/BadoBadi)                           | RTR        | Zaheer Ud Deen Akram, Hafiz Muneeb, Aysha Riffat, Alishba Zulafqar                                   |
+| [Runtime Error](https://github.com/gears-official/Code-Archive/tree/main/2024/NERC/RTR/Runtime%20Error)               | RTR        | Asad Manzoor, Ehtisham Ahmad, Saad Ali, Rana Muhammad Raees Abbas, Marium Ijaz                       |
+| [Andy Wala](https://github.com/gears-official/Code-Archive/tree/main/2024/NERC/RTR/Andy%20Wala%20Burger)              | RTR        | Tayyab Ali, Asfandyar, Abdullah Khan                                                                 |
+| [Janooni Garrisonians](https://github.com/gears-official/Code-Archive/tree/main/2024/NERC/RTR/Janooni%20Garrisonians) | RTR        | Muhammad Haseeb, Zaeem, Areel Ashfaq, Karimullah                                                     |
 
 ## Tracks
 
